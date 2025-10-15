@@ -57,7 +57,7 @@ export default function Carousel() {
     };
 
     return (
-        <div className="w-full max-w-screen-2xl mx-auto px-6 lg:px-12 py-12">
+        <div className="w-full max-w-screen-2xl mx-auto px-6 lg:px-12 py-12 lg:py-16">
             {/* Carousel container */}
             <div className="relative bg-krit-black rounded-3xl overflow-hidden min-h-[500px] lg:min-h-[600px] flex flex-col">
                 {/* Background image - full brightness, no overlay */}

@@ -1,4 +1,5 @@
 import Carousel from "@/components/sections/Carousel";
+import FAQ from "@/components/sections/FAQ";
 import HomeProject from "@/components/sections/HomeProject";
 import Image from "next/image";
 
@@ -50,9 +51,21 @@ export default function Home() {
       <Carousel />
 
       {/* Next section - content below hero */}
-      <div className="max-w-screen-2xl mx-auto px-6 lg:px-12 pt-32">
-        <p>hello</p>
+      <div className="flex flex-col max-w-screen-2xl mx-auto px-6 lg:px-12 gap-8 lg:gap-16">
+        <h2 className="flex justify-center text-krit-black font-montserrat font-bold text-2xl lg:text-5xl">
+          Stories We're proud of
+        </h2>
+        <Image
+          src="/Project_Catalogue.svg"
+          alt="Project Catalogue"
+          width={1920}
+          height={1080}
+          className="w-full"
+        />
       </div>
+
+      <FAQ />
+
     </div>
     </>
   );
