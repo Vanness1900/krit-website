@@ -1,26 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Blender";
+  src: url("/fonts/Blender-Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-@theme inline {
+@font-face {
+  font-family: "Blender";
+  src: url("/fonts/Blender-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reenie Beanie";
+  src: url("/fonts/ReenieBeanie-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+  --background: #f9f9f9;
+  --foreground: #121212;
+}
+
+@theme {
+  --breakpoint-lg: 1024px;
+
+  --color-krit-white: #f9f9f9;
+  --color-krit-black: #121212;
+  --color-krit: #eb102f;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --font-blender: "Blender", sans-serif;
+  --font-monserrat: "Montserrat", sans-serif;
+  --font-reenie: "Reenie Beanie", cursive;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Blender", "Montserrat", sans-serif;
 }
