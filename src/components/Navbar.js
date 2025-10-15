@@ -24,19 +24,19 @@ export default function Navbar() {
                 <div className="flex items-center gap-8 lg:gap-12">
                 {/* Desktop Links - hidden on mobile */}
                 <a 
-                    className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-lg
+                    className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-2xl
                         ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
-                        ${!isOpen && 'lg:block'
-                    }`}
+                        hidden lg:block
+                    `}
                 >
                     Works
                 </a>
                 <a 
                     href="/us" 
-                    className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-lg
+                    className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-2xl
                         ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
-                        ${!isOpen && 'lg:block'
-                    }`}
+                        hidden lg:block
+                    `}
                 >
                     Us
                 </a>
@@ -44,24 +44,24 @@ export default function Navbar() {
                 {/* Hamburger Button - shows on all screen sizes */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="flex flex-col gap-1.5 w-8 h-8 justify-center items-end relative z-50"
+                    className="flex flex-col gap-1.5 w-8 h-8 justify-center relative z-50"
                     aria-label="Toggle menu"
                 >
-                    <span 
-                    className={`block h-1 rounded bg-krit-black transition-all duration-300 ${
-                        isOpen ? 'w-8 rotate-45 translate-y-2.5' : 'w-8'
+                <span
+                    className={`block self-start h-1 rounded bg-krit-black transition-all duration-300 ${
+                    isOpen ? 'w-8 rotate-45 translate-y-2.5' : 'w-6'
                     }`}
-                    />
-                    <span 
-                    className={`block h-1 rounded bg-krit-black transition-all duration-300 ${
-                        isOpen ? 'opacity-0' : 'w-6 opacity-100'
+                />
+                <span
+                    className={`block self-end h-1 rounded bg-krit-black transition-all duration-300 ${
+                    isOpen ? 'opacity-0' : 'w-6 opacity-100'
                     }`}
-                    />
-                    <span 
-                    className={`block h-1 rounded bg-krit-black transition-all duration-300 ${
-                        isOpen ? 'w-8 -rotate-45 -translate-y-2.5' : 'w-8'
+                />
+                <span
+                    className={`block self-start h-1 rounded bg-krit-black transition-all duration-300 ${
+                    isOpen ? 'w-8 -rotate-45 -translate-y-2.5' : 'w-6'
                     }`}
-                    />
+                />
                 </button>
                 </div>
             </div>
