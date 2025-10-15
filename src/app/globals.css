@@ -42,7 +42,7 @@
   --color-foreground: var(--foreground);
 
   --font-blender: "Blender", sans-serif;
-  --font-monserrat: "Montserrat", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
   --font-reenie: "Reenie Beanie", cursive;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
