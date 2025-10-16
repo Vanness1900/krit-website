@@ -5,7 +5,7 @@ export default function Initiatives() {
                 Our Initiatives
             </h1>
             <p className="font-blender text-xl lg:text-2xl mb-4">
-                Discover the programs and initiatives we're passionate about.
+                Discover the programs and initiatives we&apos;re passionate about.
             </p>
         </div>
     );

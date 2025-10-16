@@ -23,14 +23,14 @@ export default function Home() {
         <div className="flex flex-col flex-1 justify-between pt-64 lg:pt-48">
           {/* Main headline */}
           <h1 className="font-montserrat font-bold text-2xl lg:text-5xl">
-            Better designs doesn't <br />
+            Better designs doesn&apos;t <br />
             just mean cooler visuals.
           </h1>
           
           {/* Subheadline - aligned to right side with max width constraints */}
           <h2 className="font-blender text-krit-black font-bold text-xl lg:text-3xl text-center lg:text-left leading-5 max-w-[60vw] lg:max-w-[40vw] place-self-end">
-            It's better decisions, healthier people, and creative ecosystems
-            that don't chew up the people inside them.
+            It&apos;s better decisions, healthier people, and creative ecosystems
+            that don&apos;t chew up the people inside them.
           </h2>
           
           {/* Call to action - centered at bottom of hero section */}
@@ -53,7 +53,7 @@ export default function Home() {
       {/* Next section - content below hero */}
       <div className="flex flex-col max-w-screen-2xl mx-auto px-6 lg:px-12 gap-8 lg:gap-16">
         <h2 className="flex justify-center text-krit-black font-montserrat font-bold text-2xl lg:text-5xl">
-          Stories We're proud of
+          Stories We&apos;re proud of
         </h2>
         <Image
           src="/Project_Catalogue.svg"
