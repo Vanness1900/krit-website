@@ -152,13 +152,13 @@ export default function Navbar() {
                             className="w-auto h-32 mb-2"
                         />
                         <p className="font-blender font-bold text-krit-black text-2xl">
-                            LET'S TALK
+                            LET&apos;S TALK
                         </p>
                     </div>
                     <div>
                         
                         <p className="font-blender text-krit-black text-base">
-                            It's free of charge and we don't bite.
+                            It&apos;s free of charge and we don&apos;t bite.
                         </p>
                     </div>
                 </div>
@@ -237,13 +237,13 @@ export default function Navbar() {
                             className="w-auto h-32 mb-2"
                         />
                         <p className="font-blender font-bold text-krit-black text-3xl">
-                            LET'S TALK
+                            LET&apos;S TALK
                         </p>
                     </div>
                     <div>
                         
                         <p className="font-blender text-krit-black text-2xl">
-                            It's free of charge and we don't bite.
+                            It&apos;s free of charge and we don&apos;t bite.
                         </p>
                     </div>
                 </div>

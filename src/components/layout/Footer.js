@@ -75,7 +75,7 @@ export default function Footer() {
                                 href="/lets-talk" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
-                                Let's talk
+                                Let&apos;s talk
                             </Link>
                             <Link 
                                 href="/career" 
@@ -209,7 +209,7 @@ export default function Footer() {
                                     href="/lets-talk" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
-                                    Let's talk
+                                    Let&apos;s talk
                                 </Link>
                                 <Link 
                                     href="/career" 
