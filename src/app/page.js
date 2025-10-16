@@ -20,7 +20,7 @@ export default function Home() {
         />
         
         {/* Content container - fills remaining space and distributes content vertically */}
-        <div className="flex flex-col flex-1 justify-between pt-64">
+        <div className="flex flex-col flex-1 justify-between pt-64 lg:pt-48">
           {/* Main headline */}
           <h1 className="font-montserrat font-bold text-2xl lg:text-5xl">
             Better designs doesn't <br />

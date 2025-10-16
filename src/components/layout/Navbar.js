@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="max-w-screen-2xl mx-auto px-6 lg:px-12 py-6">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
-                    <a href="/" className="flex items-center relative z-50">
+                    <Link href="/" className="flex items-center relative z-50">
                         <Image
                             src="/Krit_Logotype.svg" 
                             alt="Krit Logo" 
@@ -22,20 +22,21 @@ export default function Navbar() {
                             height={64}
                             className="h-12 w-auto lg:h-16"
                         />
-                    </a>
+                    </Link>
 
                     {/* Desktop Navigation + Hamburger */}
                     <div className="flex items-center gap-8 lg:gap-12">
                         {/* Desktop Links - hidden on mobile */}
-                        <a 
+                        <Link 
+                            href="/works"
                             className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-2xl
                                 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
                                 hidden lg:block
                             `}
                         >
                             Works
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/us" 
                             className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-2xl
                                 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
@@ -43,7 +44,7 @@ export default function Navbar() {
                             `}
                         >
                             Us
-                        </a>
+                        </Link>
 
                         {/* Hamburger Button - shows on all screen sizes */}
                         <button
@@ -83,41 +84,41 @@ export default function Navbar() {
                 {/* Navigation Links - Top Right (Mobile Only) */}
                 <div className="self-end">
                     <nav className="flex flex-col items-end gap-4">
-                        <a 
+                        <Link 
                             href="/us" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
                             onClick={() => setIsOpen(false)}
                         >
                             US
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/works" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
                             onClick={() => setIsOpen(false)}
                         >
                             WORKS
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/initiatives" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
                             onClick={() => setIsOpen(false)}
                         >
                             INITIATIVES
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/stories" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
                             onClick={() => setIsOpen(false)}
                         >
                             STORIES
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/goods" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
                             onClick={() => setIsOpen(false)}
                         >
                             GOODS
-                        </a>
+                        </Link>
                     </nav>
                 </div>
 
@@ -132,12 +133,12 @@ export default function Navbar() {
                     <p className="font-blender text-krit-black text-base mb-8">
                         Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
                     </p>
-                    <a 
+                    <Link 
                         href="/team" 
                         className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-base inline-flex items-center gap-2"
                     >
                         MEET THE TEAM <span>→</span>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Let's Talk - Bottom Right (Mobile Only) */}
@@ -176,52 +177,52 @@ export default function Navbar() {
                     <p className="font-blender text-krit-black text-2xl mb-8">
                         Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
                     </p>
-                    <a 
+                    <Link 
                         href="/team" 
                         className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl inline-flex items-center gap-2"
                     >
                         MEET THE TEAM <span>→</span>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Navigation Links - Center Right (Desktop Only) */}
                 <div className="absolute top-1/2 right-12 -translate-y-1/2">
                     <nav className="flex flex-col items-end gap-6">
-                        <a 
+                        <Link 
                             href="/us" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
                             onClick={() => setIsOpen(false)}
                         >
                             US
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/works" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
                             onClick={() => setIsOpen(false)}
                         >
                             WORKS
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/initiatives" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
                             onClick={() => setIsOpen(false)}
                         >
                             INITIATIVES
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/stories" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
                             onClick={() => setIsOpen(false)}
                         >
                             STORIES
-                        </a>
-                        <a 
+                        </Link>
+                        <Link 
                             href="/goods" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
                             onClick={() => setIsOpen(false)}
                         >
                             GOODS
-                        </a>
+                        </Link>
                     </nav>
                 </div>
 

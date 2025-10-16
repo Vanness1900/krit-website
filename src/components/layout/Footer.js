@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -30,58 +31,58 @@ export default function Footer() {
                     <div className="flex justify-between gap-0">
                         {/* Column 1 */}
                         <div className="flex flex-col gap-2">
-                            <a 
+                            <Link 
                                 href="/company" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Company
-                            </a>
-                            <a 
+                            </Link>
+                            <Link 
                                 href="/services" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Services
-                            </a>
-                            <a 
+                            </Link>
+                            <Link 
                                 href="/works" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Works
-                            </a>
-                            <a 
+                            </Link>
+                            <Link 
                                 href="/journal" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Journal
-                            </a>
+                            </Link>
                         </div>
 
                         {/* Column 2 */}
                         <div className="flex flex-col gap-2">
-                            <a 
+                            <Link 
                                 href="/sme-initiative" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 SME Initiative
-                            </a>
-                            <a 
+                            </Link>
+                            <Link 
                                 href="/kriatolks" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Kriatolks
-                            </a>
-                            <a 
+                            </Link>
+                            <Link 
                                 href="/lets-talk" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Let's talk
-                            </a>
-                            <a 
+                            </Link>
+                            <Link 
                                 href="/career" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Career
-                            </a>
+                            </Link>
                         </div>
 
                         {/* Column 3 */}
@@ -164,58 +165,58 @@ export default function Footer() {
 
                             {/* Column 2 */}
                             <div className="flex flex-col gap-3">
-                                <a 
+                                <Link 
                                     href="/company" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Company
-                                </a>
-                                <a 
+                                </Link>
+                                <Link 
                                     href="/services" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Services
-                                </a>
-                                <a 
+                                </Link>
+                                <Link 
                                     href="/works" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Works
-                                </a>
-                                <a 
+                                </Link>
+                                <Link 
                                     href="/journal" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Journal
-                                </a>
+                                </Link>
                             </div>
 
                             {/* Column 3 */}
                             <div className="flex flex-col gap-3">
-                                <a 
+                                <Link 
                                     href="/sme-initiative" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     SME Initiative
-                                </a>
-                                <a 
+                                </Link>
+                                <Link 
                                     href="/kriatolks" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Kriatolks
-                                </a>
-                                <a 
+                                </Link>
+                                <Link 
                                     href="/lets-talk" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Let's talk
-                                </a>
-                                <a 
+                                </Link>
+                                <Link 
                                     href="/career" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Career
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
