@@ -18,21 +18,6 @@ const ProjectList = [
         description: "Third project with cool details.",
         image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
-    {
-        title: "The Playlist",
-        description: "Fourth project showcase here.",
-        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
-    },
-    {
-        title: "The Playlist",
-        description: "Fifth project with unique features.",
-        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
-    },
-    {
-        title: "The Playlist",
-        description: "Sixth project with unique features.",
-        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
-    },
 ];
 
 export default function HomeProject() {

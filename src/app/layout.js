@@ -7,7 +7,7 @@ export const metadata = {
   title: "KRIT",
   description: "Krit's Website",
   icons: {
-    icon: '/Krit_Favicon.svg',
+    icon: '/logo/Krit_Favicon.svg',
   }
 };
 

@@ -6,7 +6,7 @@ export default function ProjectPage() {
     return (
         <div className="min-h-screen bg-krit-white">
             {/* Header with back button and project title */}
-            <div className="max-w-screen-2xl mx-auto px-6 lg:px-12 pt-32 lg:pt-48 pb-6 flex flex-col lg:flex-row items-start justify-between">
+            <div className="max-w-screen-2xl mx-auto px-6 lg:px-12 pt-32 lg:pt-40 pb-6 flex flex-col lg:flex-row items-start justify-between">
                 <Link 
                     href="/project" 
                     className="flex items-center gap-2 text-krit-black hover:text-krit transition-colors duration-300"
@@ -23,7 +23,7 @@ export default function ProjectPage() {
             </div>
 
             {/* Hero Image */}
-            <div className="w-full h-[50vh] lg:h-[60vh] relative bg-gray-300">
+            <div className="w-full h-[30vh] lg:h-[60vh] relative bg-gray-300">
                 <Image
                     src="/project/The_Playlist/1_Title_Card.jpg"
                     alt="Project Hero"
@@ -35,10 +35,9 @@ export default function ProjectPage() {
 
             {/* Content Section */}
             <div className="max-w-screen-2xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
-                    {/* Left Column - Main Content */}
-                    <div className="flex flex-col gap-6">
-                        {/* Category */}
+                {/* Category */}
+                <div className="flex flex-col gap-8 mb-8">
+                    <div className="flex flex-col gap-2">
                         <p className="font-blender text-xl lg:text-2xl text-krit-black">
                             Bespoke Perfumes
                         </p>
@@ -47,15 +46,20 @@ export default function ProjectPage() {
                         <h2 className="font-montserrat font-bold text-4xl lg:text-6xl text-krit-black">
                             The Playlist
                         </h2>
+                    </div>
 
-                        <Image
+                    <Image
                             src="/project/The_Playlist/2_Product_Shot_1.jpg"
                             alt="Project Image"
                             width={500}
                             height={500}
                             className="w-full h-auto"
                         />
+                </div>
 
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+                    {/* Left Column - Main Content */}
+                    <div className="flex flex-col gap-6">
                         {/* Description Paragraphs */}
                         <p className="font-blender text-xl lg:text-2xl text-krit-black">
                             The Playlist began as an initiative to create personal fragrances based on musical preferences. Now, our fragrances have since evolved to be an ode to the musical genre of your choice. Through a collaboration between the senses of sound and smell, our perfumes tell an intimate story of their wearer.
@@ -67,7 +71,7 @@ export default function ProjectPage() {
                     </div>
 
                     {/* Right Column - Project Details */}
-                    <div className="flex flex-col gap-12">
+                    <div className="grid grid-cols-2 gap-8 lg:gap-12">
                         {/* Detail Item 1 */}
                         <div>
                             <h3 className="font-montserrat font-bold text-2xl lg:text-3xl text-krit-black mb-1">
@@ -161,6 +165,7 @@ export default function ProjectPage() {
                     </div>
                 </div>
 
+                {/* Gallery Section */}
                 <Image
                     src="/project/The_Playlist/7_Playlists_QRs.jpg"
                     alt="Project Image"
@@ -251,7 +256,8 @@ export default function ProjectPage() {
                     className="w-full h-auto"
                     unoptimized
                 />
-                
+
+                {/* Credits Section */}
                 <div className="flex flex-col gap-6 py-16">
                     <div className="flex flex-col gap-6">
                         <p className="font-blender text-xl lg:text-2xl text-gray-500 italic">
