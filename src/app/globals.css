@@ -70,10 +70,108 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Blender", "Montserrat", sans-serif;
+}
+
+/* Base styles for p and a - text-lg, Blender font, leading-5 */
+@layer base {
+  /* Base styles for p and a - mobile: text-base, desktop: text-lg */
+  p, a {
+    font-size: 1rem; /* text-base for mobile */
+    line-height: 1.25rem;
+    font-family: "Blender", sans-serif;
+  }
+
+  @media (min-width: 1024px) {
+    p, a {
+      font-size: 1.125rem; /* text-lg for desktop */
+      line-height: 1.25rem;
+    }
+  }
+
+  /* Headers - Montserrat font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* h1: mobile text-5xl, desktop text-6xl */
+  h1 {
+    font-size: 3rem; /* text-5xl */
+    line-height: 1;
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 3.75rem; /* text-6xl */
+      line-height: 1;
+    }
+  }
+
+  /* h2: mobile text-4xl, desktop text-5xl */
+  h2 {
+    font-size: 2.25rem; /* text-4xl */
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 3rem; /* text-5xl */
+      line-height: 1;
+    }
+  }
+
+  /* h3: mobile text-3xl, desktop text-4xl */
+  h3 {
+    font-size: 1.5rem; /* text-2xl */
+    line-height: 2.25rem;
+  }
+
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 2.25rem; /* text-4xl */
+      line-height: 2.5rem;
+    }
+  }
+
+  /* h4: mobile text-2xl, desktop text-3xl */
+  h4 {
+    font-size: 1.25rem; /* text-xl */
+    line-height: 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    h4 {
+      font-size: 1.875rem; /* text-3xl */
+      line-height: 2.25rem;
+    }
+  }
+
+  /* h5: mobile text-xl, desktop text-2xl */
+  h5 {
+    font-size: 1.125rem; /* text-lg */
+    line-height: 1.75rem;
+  }
+
+  @media (min-width: 1024px) {
+    h5 {
+      font-size: 1.5rem; /* text-2xl */
+      line-height: 2rem;
+    }
+  }
+
+  /* h6: mobile text-lg, desktop text-xl */
+  h6 {
+    font-size: 1.rem; /* text-base */
+    line-height: 1.75rem;
+  }
+
+  @media (min-width: 1024px) {
+    h6 {
+      font-size: 1.25rem; /* text-xl */
+      line-height: 1.75rem;
+    }
+  }
 }

@@ -53,10 +53,10 @@ export default function HomeProject() {
 
                         {/* Content */}
                         <div className="flex flex-col gap-0">
-                            <h3 className="font-montserrat font-bold text-krit-white text-4xl lg:text-5xl group-hover:text-krit transition-colors duration-300">
+                            <h3 className="font-montserrat font-bold text-krit-white group-hover:text-krit transition-colors duration-300">
                                 {project.title}
                             </h3>
-                            <p className="font-blender text-krit-white text-xl lg:text-2xl">
+                            <p className="font-blender text-krit-white">
                                 {project.description}
                             </p>
                         </div>
@@ -71,7 +71,7 @@ export default function HomeProject() {
                     </div>
                 ))}
             </div>
-            <Link href="/works" className="flex justify-center underline font-blender font-bold text-krit-black text-xl lg:text-2xl hover:text-krit transition-colors duration-300 pt-6 lg:pt-12">
+            <Link href="/works" className="flex justify-center underline font-blender font-bold text-krit-black hover:text-krit transition-colors duration-300 pt-6 lg:pt-12">
                 More Works
             </Link>
         </div>
