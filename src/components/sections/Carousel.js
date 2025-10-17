@@ -5,20 +5,20 @@ import Image from 'next/image';
 
 const carouselItems = [
     {
-        description: "We're your honest collaborators, offering not just design work, but strategic creative thinking rooted in humanity and professional respect.",
-        image: "/1_Title_Card.jpg"
+        description: "We&apos;re your honest collaborators, offering not just design work, but strategic creative thinking rooted in humanity and professional respect.",
+        image: "/project/The_Playlist/1_Title_Card.jpg"
     },
     {
         description: "Our approach prioritizes people first, creating experiences that resonate with real human needs and emotions.",
-        image: "/6_Products.png"
+        image: "/project/The_Playlist/6_Products.png"
     },
     {
         description: "We work alongside you as true partners, bringing fresh perspectives and innovative solutions to every challenge.",
-        image: "/9B_Product_Shot_2.jpg"
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg"
     },
     {
         description: "Every project is an opportunity to create meaningful impact through careful consideration and expert execution.",
-        image: "/15_Poster_2.jpg"
+        image: "/project/The_Playlist/15_Poster_2.jpg"
     }
 ];
 
