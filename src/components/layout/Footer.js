@@ -15,11 +15,11 @@ export default function Footer() {
                                 alt="Krit logo"
                                 width={64}
                                 height={64}
-                                className="h-12 w-auto"
+                                className="h-8 w-auto"
                             />
                         <div className="flex flex-col gap-2">
                             <div>
-                                <p className="font-blender font-bold text-krit-white text-2xl leading-6">
+                                <p className="font-blender font-bold text-krit-white leading-5">
                                     Rated 4.54 / 5 by<br />
                                     our moms <span className="italic font-normal">(collectively)</span>
                                 </p>
@@ -31,62 +31,62 @@ export default function Footer() {
                     <div className="flex justify-between gap-0">
                         {/* Column 1 */}
                         <div className="flex flex-col gap-2">
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 Company
-                            </span>
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            </h6>
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 Services
-                            </span>
+                            </h6>
                             <Link 
                                 href="/works" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                                className="font-blender text-krit-white hover:text-krit transition-colors"
                             >
                                 Works
                             </Link>
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 Journal
-                            </span>
+                            </h6>
                         </div>
 
                         {/* Column 2 */}
                         <div className="flex flex-col gap-2">
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 SME Initiative
-                            </span>
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            </h6>
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 Kriatolks
-                            </span>
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            </h6>
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 Let&apos;s talk
-                            </span>
-                            <span 
-                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
+                            </h6>
+                            <h6 
+                                className="font-blender text-gray-400 cursor-not-allowed"
                             >
                                 Career
-                            </span>
+                            </h6>
                         </div>
 
                         {/* Column 3 */}
-                        <div className="flex gap-6 pr-4 pt-1">
+                        <div className="flex gap-4 pr-4">
                             <a 
                                 href="https://instagram.com" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="hover:opacity-70 transition-opacity text-krit-white"
                             >
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
                                     <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                                 </svg>
                             </a>
@@ -96,7 +96,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="hover:opacity-70 transition-opacity text-krit-white"
                             >
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-behance" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-behance" viewBox="0 0 16 16">
                                     <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391s.497.426.641.747c.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922s.461.957.461 1.563c0 .496-.105.922-.285 1.278a2.3 2.3 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.3 5.3 0 0 1-1.278.176L0 12.803V3zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a1 1 0 0 0-.32-.355 1.8 1.8 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305zm6.858-.035q.428.427 1.278.426c.39 0 .746-.106 1.032-.286q.426-.32.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.1 4.1 0 0 1-1.527-.285 2.8 2.8 0 0 1-1.137-.782 2.85 2.85 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4 4 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396m2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176s-.356.25-.496.39a.96.96 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978z"/>
                                 </svg>
                             </a>
@@ -105,7 +105,7 @@ export default function Footer() {
 
                     {/* Bottom Section - Copyright */}
                     <div>
-                        <p className="font-blender text-krit-white text-lg">
+                        <p className="font-blender !text-xs text-krit-white">
                             © Krit Design Club 2025. All Rights Reserved.
                         </p>
                     </div>
@@ -124,7 +124,7 @@ export default function Footer() {
                                 alt="Krit logo"
                                 width={64}
                                 height={64} 
-                                className="h-16 w-auto"
+                                className="h-12 w-auto"
                             />
                             
                             
@@ -133,7 +133,7 @@ export default function Footer() {
                         {/* Right Side - Navigation Links */}
                         <div className="flex gap-16">
                             {/* Column 1 */}
-                            <div className="flex gap-4 pr-4 pt-1">
+                            <div className="flex gap-4">
                                 <a 
                                     href="https://instagram.com" 
                                     target="_blank" 
@@ -159,23 +159,23 @@ export default function Footer() {
                             {/* Column 2 */}
                             <div className="flex flex-col gap-3">
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     Company
                                 </span>
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     Services
                                 </span>
                                 <Link 
                                     href="/works" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                    className="font-blender text-krit-white hover:text-krit transition-colors text-right"
                                 >
                                     Works
                                 </Link>
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     Journal
                                 </span>
@@ -184,22 +184,22 @@ export default function Footer() {
                             {/* Column 3 */}
                             <div className="flex flex-col gap-3">
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     SME Initiative
                                 </span>
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     Kriatolks
                                 </span>
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     Let&apos;s talk
                                 </span>
                                 <span 
-                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
+                                    className="font-blender text-gray-400 cursor-not-allowed text-right"
                                 >
                                     Career
                                 </span>
@@ -210,13 +210,13 @@ export default function Footer() {
                     {/* Bottom Section - Rating & Copyright */}
                     <div className="flex justify-between items-end">
                         <div>
-                            <p className="font-blender font-bold text-krit-white text-3xl leading-8">
+                            <p className="font-blender font-bold text-krit-white leading-5">
                                 Rated 4.54 / 5 by<br />
                                 our moms <span className="italic font-normal">(collectively)</span>
                             </p>
                         </div>
                         <div>
-                            <p className="font-blender text-krit-white text-sm">
+                            <p className="font-blender text-krit-white text-xs">
                                 © Krit Design Club 2025. All Rights Reserved.
                             </p>
                         </div>

@@ -23,16 +23,16 @@ export default function Home() {
         {/* Content container - fills remaining space and distributes content vertically */}
         <div className="flex flex-col flex-1 justify-between pt-64 lg:pt-48">
           {/* Main headline */}
-          <h1 className="font-montserrat font-bold text-2xl lg:text-5xl">
+          <h3 className="font-montserrat font-bold">
             Better designs doesn&apos;t <br />
             just mean cooler visuals.
-          </h1>
+          </h3>
           
           {/* Subheadline - aligned to right side with max width constraints */}
-          <h2 className="font-blender text-krit-black font-bold text-xl lg:text-3xl text-center lg:text-left leading-5 max-w-[60vw] lg:max-w-[40vw] place-self-end">
+          <h5 className="font-blender text-krit-black font-bold text-center leading-5 max-w-[60vw] lg:max-w-[40vw] place-self-end">
             It&apos;s better decisions, healthier people, and creative ecosystems
             that don&apos;t chew up the people inside them.
-          </h2>
+          </h5>
           
           {/* Call to action - centered at bottom of hero section */}
           <ScrollButton />
@@ -47,9 +47,9 @@ export default function Home() {
 
       {/* Next section - content below hero */}
       <div className="flex flex-col max-w-screen-2xl mx-auto px-6 lg:px-12 gap-8 lg:gap-16">
-        <h2 className="flex justify-center text-krit-black font-montserrat font-bold text-2xl lg:text-5xl">
+        <h3 className="flex justify-center text-krit-black font-montserrat font-bold">
           Stories We&apos;re proud of
-        </h2>
+        </h3>
         <Image
           src="/logo/Project_Catalogue.svg"
           alt="Project Catalogue"

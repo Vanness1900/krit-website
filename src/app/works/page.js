@@ -24,9 +24,9 @@ const projects = [
 
 export default function Project() {
     return (
-        <div className="min-h-screen bg-krit-white pt-32 pb-12">
+        <div className="min-h-screen bg-krit-white pt-28 lg:pt-32 pb-8 lg:pb-12">
             <div className="max-w-screen-2xl mx-auto px-6 lg:px-12">
-                <p className="font-blender text-xl lg:text-2xl mb-12 text-krit-black">
+                <p className="font-blender mb-12 text-krit-black">
                     All Works - Branding - Motion - Communication - Product - Packaging
                 </p>
 
@@ -40,7 +40,7 @@ export default function Project() {
                         >
                             <div
                                 key={index}
-                                className="group cursor-pointer relative min-h-[30vh] lg:min-h-[50vh] p-8 lg:p-12 flex flex-col justify-between"
+                                className="group cursor-pointer relative min-h-[30vh] lg:min-h-[50vh] p-4 lg:p-8 flex flex-col justify-between"
                             >
                                 <div className="absolute inset-0 z-0 overflow-hidden">
                                     <Image
@@ -56,10 +56,10 @@ export default function Project() {
 
                                 {/* Content */}
                                 <div className="flex flex-col gap-0 z-20">
-                                    <h3 className="font-montserrat font-bold text-krit-white text-4xl lg:text-5xl group-hover:text-krit transition-colors duration-300">
+                                    <h3 className="font-montserrat font-bold text-krit-white group-hover:text-krit transition-colors duration-300">
                                         {project.title}
                                     </h3>
-                                    <p className="font-blender text-krit-white text-xl lg:text-2xl">
+                                    <p className="font-blender text-krit-white">
                                         {project.slug}
                                     </p>
                                 </div>

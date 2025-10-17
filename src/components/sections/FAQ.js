@@ -30,14 +30,14 @@ export default function FAQ() {
 
     return (
         <div className="w-full max-w-screen-2xl mx-auto px-6 lg:px-12 pt-16 pb-8 lg:py-24">
-            <div className="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-0 lg:gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-8 gap-0 lg:gap-12">
                 {/* FAQ Title */}
-                <h2 className="font-montserrat font-bold text-2xl lg:text-5xl text-krit-black lg:pt-6">
+                <h3 className="font-montserrat font-bold lg:col-span-2 text-krit-black lg:pt-6">
                     FAQ
-                </h2>
+                </h3>
 
                 {/* FAQ Items */}
-                <div className="flex flex-col">
+                <div className="flex flex-col lg:col-span-6">
                     {faqData.map((faq, index) => (
                         <div key={index} className="border-b border-gray-300">
                             {/* Question Button */}
@@ -46,7 +46,7 @@ export default function FAQ() {
                                 className="w-full flex items-center justify-between py-6 text-left group"
                                 aria-expanded={openIndex === index}
                             >
-                                <span className="font-blender text-xl lg:text-3xl text-krit-black pr-4">
+                                <span className="font-blender text-lg lg:text-xl text-krit-black pr-4">
                                     {faq.question}
                                 </span>
                                 <span className="text-2xl text-krit-black flex-shrink-0 transition-transform duration-300"
@@ -63,7 +63,7 @@ export default function FAQ() {
                                     opacity: openIndex === index ? 1 : 0
                                 }}
                             >
-                                <p className="font-blender text-base lg:text-lg text-gray-600 pb-6">
+                                <p className="font-blender text-gray-600 pb-6">
                                     {faq.answer}
                                 </p>
                             </div>

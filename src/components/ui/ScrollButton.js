@@ -23,7 +23,7 @@ export default function ScrollButton() {
             className="flex flex-col items-center gap-1 group cursor-pointer"
             onClick={handleScroll}
         >
-            <p className="font-blender text-krit-black text-lg lg:text-2xl group-hover:text-krit transition-colors duration-500">
+            <p className="font-blender text-krit-black group-hover:text-krit transition-colors duration-500">
                 see what we mean
             </p>
             {/* Chevron down icon */}
@@ -33,7 +33,7 @@ export default function ScrollButton() {
                 viewBox="0 0 24 24" 
                 strokeWidth="1.5" 
                 stroke="currentColor" 
-                className="size-6 group-hover:text-krit transition-colors duration-500 group-hover:animate-bounce"
+                className="size-4 group-hover:text-krit transition-colors duration-500 group-hover:animate-bounce"
             >
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
             </svg>

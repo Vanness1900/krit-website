@@ -10,7 +10,7 @@ const carouselItems = [
     },
     {
         description: "Our approach prioritizes people first, creating experiences that resonate with real human needs and emotions.",
-        image: "/works/The_Playlist/6_Products.png"
+        image: "/works/The_Playlist/12_Product_Detail.jpg"
     },
     {
         description: "We work alongside you as true partners, bringing fresh perspectives and innovative solutions to every challenge.",
@@ -75,12 +75,12 @@ export default function Carousel() {
                 <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-5" />
 
                 {/* Navigation progress bars at top */}
-                <div className="flex gap-4 p-8 relative z-10">
+                <div className="flex gap-4 p-4 relative z-10">
                     {carouselItems.map((_, index) => (
                         <button
                             key={index}
                             onClick={() => handleDotClick(index)}
-                            className="h-1 flex-1 bg-white/30 rounded-full overflow-hidden hover:bg-white/40 transition-colors"
+                            className="h-2 flex-1 bg-white/30 rounded-full overflow-hidden hover:bg-white/40 transition-colors"
                             aria-label={`Go to slide ${index + 1}`}
                         >
                             {/* Animated progress bar */}
@@ -95,9 +95,9 @@ export default function Carousel() {
                 </div>
 
                 {/* Content area - bottom left */}
-                <div className="flex-1 flex items-end p-8 lg:p-12 relative z-10">
+                <div className="flex-1 flex items-end p-4 lg:p-8 relative z-10">
                     <div className="max-w-2xl">
-                        <p className="font-blender text-white text-xl lg:text-2xl transition-opacity duration-500">
+                        <p className="font-blender text-white transition-opacity duration-500">
                             {carouselItems[activeIndex].description}
                         </p>
                     </div>
