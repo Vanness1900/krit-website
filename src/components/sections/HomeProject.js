@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import ButtonRound from '@/components/ui/ButtonRound';
 
 const ProjectList = [
@@ -36,7 +37,7 @@ const ProjectList = [
 
 export default function HomeProject() {
     return (
-        <div className="">
+        <div className="max-w-screen-2xl mx-auto w-screen">
             {/* Grid container: 1 column on mobile, masonry-style grid on desktop */}
             <div className="grid grid-cols-1 lg:grid-cols-2 auto-rows-fr">
                 {ProjectList.map((project, index) => (
@@ -77,9 +78,9 @@ export default function HomeProject() {
                     </div>
                 ))}
             </div>
-            <a href="/works" className="flex justify-center underline font-blender font-bold text-krit-black text-xl lg:text-2xl hover:text-krit pt-6 lg:pt-12">
+            <Link href="/project" className="flex justify-center underline font-blender font-bold text-krit-black text-xl lg:text-2xl hover:text-krit transition-colors duration-300 pt-6 lg:pt-12">
                 More Works
-            </a>
+            </Link>
         </div>
     );
 }

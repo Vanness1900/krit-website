@@ -28,8 +28,8 @@ export default function Navbar() {
                     <div className="flex items-center gap-8 lg:gap-12">
                         {/* Desktop Links - hidden on mobile */}
                         <Link 
-                            href="/works"
-                            className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-2xl
+                            href="/project/The_Playlist"
+                            className={`font-montserrat text-krit-black hover:text-krit transition-all duration-300 ease-in-out text-2xl
                                 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
                                 hidden lg:block
                             `}
@@ -38,7 +38,7 @@ export default function Navbar() {
                         </Link>
                         <Link 
                             href="/us" 
-                            className={`font-montserrat text-krit-black hover:text-krit transition-all duration-500 ease-in-out text-2xl
+                            className={`font-montserrat text-krit-black hover:text-krit transition-all duration-300 ease-in-out text-2xl
                                 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
                                 hidden lg:block
                             `}
