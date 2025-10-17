@@ -16,7 +16,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link href="/" className="flex items-center relative z-50">
                         <Image
-                            src="/Krit_Logotype.svg" 
+                            src="/logo/Krit_Logotype.svg" 
                             alt="Krit Logo" 
                             width={64}
                             height={64}
@@ -145,7 +145,7 @@ export default function Navbar() {
                 <div className="self-end flex flex-col items-end gap-0">
                     <div className="flex gap-4 items-end">
                         <Image 
-                            src="/Krit_Hamburger_Mascot.svg" 
+                            src="/logo/Krit_Hamburger_Mascot.svg" 
                             alt="Character"
                             height={64}
                             width={64}
@@ -230,7 +230,7 @@ export default function Navbar() {
                 <div className="flex flex-col absolute bottom-12 right-12 items-end gap-0">
                     <div className="flex gap-4 items-end">
                         <Image 
-                            src="/Krit_Hamburger_Mascot.svg" 
+                            src="/logo/Krit_Hamburger_Mascot.svg" 
                             alt="Character"
                             height={64}
                             width={64}

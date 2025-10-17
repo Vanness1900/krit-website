@@ -5,19 +5,19 @@ const projects = [
     {
         title: "The Playlist",
         category: "Branding & Design",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
         slug: "The_Playlist"
     },
     {
         title: "Project Two",
         category: "Web Design",
-        image: "/6_Products.png",
+        image: "/project/The_Playlist/6_Products.png",
         slug: "project-two"
     },
     {
         title: "Project Three",
         category: "UI/UX Design",
-        image: "/15_Poster_2.jpg",
+        image: "/project/The_Playlist/15_Poster_2.jpg",
         slug: "project-three"
     },
 ];

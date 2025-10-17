@@ -6,32 +6,32 @@ const ProjectList = [
     {
         title: "The Playlist",
         description: "An amazing project description.",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
     {
         title: "The Playlist",
         description: "Another amazing project description.",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
     {
         title: "The Playlist",
         description: "Third project with cool details.",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
     {
         title: "The Playlist",
         description: "Fourth project showcase here.",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
     {
         title: "The Playlist",
         description: "Fifth project with unique features.",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
     {
         title: "The Playlist",
         description: "Sixth project with unique features.",
-        image: "/9B_Product_Shot_2.jpg",
+        image: "/project/The_Playlist/9B_Product_Shot_2.jpg",
     },
 ];
 

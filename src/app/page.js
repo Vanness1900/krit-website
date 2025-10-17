@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex flex-col max-w-screen-2xl mx-auto px-6 lg:px-12 h-screen bg-krit-white pt-48 pb-12 gap-8 relative">
         {/* Mascot image - positioned absolutely to top right */}
         <Image
-          src="/Krit_Home_Mascot.svg"
+          src="/logo/Krit_Home_Mascot.svg"
           alt="Krit Mascot"
           width={64}
           height={64}
@@ -51,7 +51,7 @@ export default function Home() {
           Stories We&apos;re proud of
         </h2>
         <Image
-          src="/Project_Catalogue.svg"
+          src="/logo/Project_Catalogue.svg"
           alt="Project Catalogue"
           width={1920}
           height={1080}

@@ -11,7 +11,7 @@ export default function Footer() {
                     {/* Bottom Section - Rating & Logo*/}
                     <div className="flex items-center gap-4">
                         <Image
-                                src="/Krit_Logotype_White.svg" 
+                                src="/logo/Krit_Logotype_White.svg" 
                                 alt="Krit logo"
                                 width={64}
                                 height={64}
@@ -127,7 +127,7 @@ export default function Footer() {
                         {/* Left Side - Logo and Rating */}
                         <div className="flex flex-col justify-between">
                             <Image
-                                src="/Krit_Logotype_White.svg" 
+                                src="/logo/Krit_Logotype_White.svg" 
                                 alt="Krit logo"
                                 width={64}
                                 height={64} 
