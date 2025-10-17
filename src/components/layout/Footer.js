@@ -31,58 +31,51 @@ export default function Footer() {
                     <div className="flex justify-between gap-0">
                         {/* Column 1 */}
                         <div className="flex flex-col gap-2">
-                            <Link 
-                                href="/company" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 Company
-                            </Link>
-                            <Link 
-                                href="/services" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            </span>
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 Services
-                            </Link>
+                            </span>
                             <Link 
                                 href="/works" 
                                 className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
                             >
                                 Works
                             </Link>
-                            <Link 
-                                href="/journal" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 Journal
-                            </Link>
+                            </span>
                         </div>
 
                         {/* Column 2 */}
                         <div className="flex flex-col gap-2">
-                            <Link 
-                                href="/sme-initiative" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 SME Initiative
-                            </Link>
-                            <Link 
-                                href="/kriatolks" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            </span>
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 Kriatolks
-                            </Link>
-                            <Link 
-                                href="/lets-talk" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            </span>
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 Let&apos;s talk
-                            </Link>
-                            <Link 
-                                href="/career" 
-                                className="font-blender text-krit-white hover:text-krit transition-colors text-2xl"
+                            </span>
+                            <span 
+                                className="font-blender text-gray-500 cursor-not-allowed text-2xl"
                             >
                                 Career
-                            </Link>
+                            </span>
                         </div>
 
                         {/* Column 3 */}
@@ -165,58 +158,51 @@ export default function Footer() {
 
                             {/* Column 2 */}
                             <div className="flex flex-col gap-3">
-                                <Link 
-                                    href="/company" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     Company
-                                </Link>
-                                <Link 
-                                    href="/services" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                </span>
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     Services
-                                </Link>
+                                </span>
                                 <Link 
                                     href="/works" 
                                     className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
                                 >
                                     Works
                                 </Link>
-                                <Link 
-                                    href="/journal" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     Journal
-                                </Link>
+                                </span>
                             </div>
 
                             {/* Column 3 */}
                             <div className="flex flex-col gap-3">
-                                <Link 
-                                    href="/sme-initiative" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     SME Initiative
-                                </Link>
-                                <Link 
-                                    href="/kriatolks" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                </span>
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     Kriatolks
-                                </Link>
-                                <Link 
-                                    href="/lets-talk" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                </span>
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     Let&apos;s talk
-                                </Link>
-                                <Link 
-                                    href="/career" 
-                                    className="font-blender text-krit-white hover:text-krit transition-colors text-2xl text-right"
+                                </span>
+                                <span 
+                                    className="font-blender text-gray-500 cursor-not-allowed text-2xl text-right"
                                 >
                                     Career
-                                </Link>
+                                </span>
                             </div>
                         </div>
                     </div>

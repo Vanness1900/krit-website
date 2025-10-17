@@ -28,7 +28,7 @@ export default function Navbar() {
                     <div className="flex items-center gap-8 lg:gap-12">
                         {/* Desktop Links - hidden on mobile */}
                         <Link 
-                            href="/project/The_Playlist"
+                            href="/works/The_Playlist"
                             className={`font-montserrat text-krit-black hover:text-krit transition-all duration-300 ease-in-out text-2xl
                                 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
                                 hidden lg:block
@@ -36,15 +36,14 @@ export default function Navbar() {
                         >
                             Works
                         </Link>
-                        <Link 
-                            href="/us" 
-                            className={`font-montserrat text-krit-black hover:text-krit transition-all duration-300 ease-in-out text-2xl
+                        <span 
+                            className={`font-montserrat text-gray-400 cursor-not-allowed transition-all duration-300 ease-in-out text-2xl
                                 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
                                 hidden lg:block
                             `}
                         >
                             Us
-                        </Link>
+                        </span>
 
                         {/* Hamburger Button - shows on all screen sizes */}
                         <button
@@ -84,13 +83,11 @@ export default function Navbar() {
                 {/* Navigation Links - Top Right (Mobile Only) */}
                 <div className="self-end">
                     <nav className="flex flex-col items-end gap-4">
-                        <Link 
-                            href="/us" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
-                            onClick={() => setIsOpen(false)}
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-2xl"
                         >
                             US
-                        </Link>
+                        </span>
                         <Link 
                             href="/works" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
@@ -98,27 +95,21 @@ export default function Navbar() {
                         >
                             WORKS
                         </Link>
-                        <Link 
-                            href="/initiatives" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
-                            onClick={() => setIsOpen(false)}
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-2xl"
                         >
                             INITIATIVES
-                        </Link>
-                        <Link 
-                            href="/stories" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
-                            onClick={() => setIsOpen(false)}
+                        </span>
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-2xl"
                         >
                             STORIES
-                        </Link>
-                        <Link 
-                            href="/goods" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-2xl"
-                            onClick={() => setIsOpen(false)}
+                        </span>
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-2xl"
                         >
                             GOODS
-                        </Link>
+                        </span>
                     </nav>
                 </div>
 
@@ -188,13 +179,11 @@ export default function Navbar() {
                 {/* Navigation Links - Center Right (Desktop Only) */}
                 <div className="absolute top-1/2 right-12 -translate-y-1/2">
                     <nav className="flex flex-col items-end gap-6">
-                        <Link 
-                            href="/us" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
-                            onClick={() => setIsOpen(false)}
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-3xl"
                         >
                             US
-                        </Link>
+                        </span>
                         <Link 
                             href="/works" 
                             className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
@@ -202,27 +191,21 @@ export default function Navbar() {
                         >
                             WORKS
                         </Link>
-                        <Link 
-                            href="/initiatives" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
-                            onClick={() => setIsOpen(false)}
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-3xl"
                         >
                             INITIATIVES
-                        </Link>
-                        <Link 
-                            href="/stories" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
-                            onClick={() => setIsOpen(false)}
+                        </span>
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-3xl"
                         >
                             STORIES
-                        </Link>
-                        <Link 
-                            href="/goods" 
-                            className="font-blender font-bold text-krit-black hover:text-krit transition-colors text-3xl"
-                            onClick={() => setIsOpen(false)}
+                        </span>
+                        <span 
+                            className="font-blender font-bold text-gray-400 cursor-not-allowed text-3xl"
                         >
                             GOODS
-                        </Link>
+                        </span>
                     </nav>
                 </div>
 

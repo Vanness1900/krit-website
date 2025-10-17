@@ -8,7 +8,7 @@ export default function ProjectPage() {
             {/* Header with back button and project title */}
             <div className="max-w-screen-2xl mx-auto px-6 lg:px-12 pt-32 lg:pt-40 pb-6 flex flex-col lg:flex-row items-start justify-between">
                 <Link 
-                    href="/project" 
+                    href="/works" 
                     className="flex items-center gap-2 text-krit-black hover:text-krit transition-colors duration-300"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5">
@@ -25,7 +25,7 @@ export default function ProjectPage() {
             {/* Hero Image */}
             <div className="w-full h-[30vh] lg:h-[60vh] relative bg-gray-300">
                 <Image
-                    src="/project/The_Playlist/1_Title_Card.jpg"
+                    src="/works/The_Playlist/1_Title_Card.jpg"
                     alt="Project Hero"
                     fill
                     className="object-cover"
@@ -49,7 +49,7 @@ export default function ProjectPage() {
                     </div>
 
                     <Image
-                            src="/project/The_Playlist/2_Product_Shot_1.jpg"
+                            src="/works/The_Playlist/2_Product_Shot_1.jpg"
                             alt="Project Image"
                             width={500}
                             height={500}
@@ -117,14 +117,14 @@ export default function ProjectPage() {
 
             <div className="max-w-screen-2xl mx-auto px-6 lg:px-12">
                 <Image
-                    src="/project/The_Playlist/4_Logo_Rationale.png"
+                    src="/works/The_Playlist/4_Logo_Rationale.png"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image  
-                    src="/project/The_Playlist/5_Logo_Animation.gif"
+                    src="/works/The_Playlist/5_Logo_Animation.gif"
                     alt="Project Animation"
                     width={500}
                     height={500}
@@ -149,7 +149,7 @@ export default function ProjectPage() {
                 </div>
 
                 <Image
-                    src="/project/The_Playlist/6_Products.png"
+                    src="/works/The_Playlist/6_Products.png"
                     alt="Project Image"
                     width={500}
                     height={500}
@@ -167,14 +167,14 @@ export default function ProjectPage() {
 
                 {/* Gallery Section */}
                 <Image
-                    src="/project/The_Playlist/7_Playlists_QRs.jpg"
+                    src="/works/The_Playlist/7_Playlists_QRs.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image  
-                    src="/project/The_Playlist/8_Casette_Presentation.gif"
+                    src="/works/The_Playlist/8_Casette_Presentation.gif"
                     alt="Project Animation"
                     width={500}
                     height={500}
@@ -182,7 +182,7 @@ export default function ProjectPage() {
                     unoptimized
                 />
                 <Image  
-                    src="/project/The_Playlist/9_Tag_&_Product.gif"
+                    src="/works/The_Playlist/9_Tag_&_Product.gif"
                     alt="Project Animation"
                     width={500}
                     height={500}
@@ -190,56 +190,56 @@ export default function ProjectPage() {
                     unoptimized
                 />
                 <Image
-                    src="/project/The_Playlist/9B_Product_Shot_2.jpg"
+                    src="/works/The_Playlist/9B_Product_Shot_2.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image
-                    src="/project/The_Playlist/10_Product_Shot_3.jpg"
+                    src="/works/The_Playlist/10_Product_Shot_3.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image
-                    src="/project/The_Playlist/11_Packaging.jpg"
+                    src="/works/The_Playlist/11_Packaging.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image
-                    src="/project/The_Playlist/12_Product_Detail.jpg"
+                    src="/works/The_Playlist/12_Product_Detail.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image
-                    src="/project/The_Playlist/13_Product_Card.jpg"
+                    src="/works/The_Playlist/13_Product_Card.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image
-                    src="/project/The_Playlist/14_Poster_1.jpg"
+                    src="/works/The_Playlist/14_Poster_1.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <Image
-                    src="/project/The_Playlist/15_Poster_2.jpg"
+                    src="/works/The_Playlist/15_Poster_2.jpg"
                     alt="Project Image"
                     width={500}
                     height={500}
                     className="w-full h-auto"
                 />
                 <video
-                    src="/project/The_Playlist/16_Website_Mockup.mp4"
+                    src="/works/The_Playlist/16_Website_Mockup.mp4"
                     alt="Project Animation"
                     width={500}
                     height={500}
@@ -249,7 +249,7 @@ export default function ProjectPage() {
                     muted
                 />
                 <Image  
-                    src="/project/The_Playlist/17_Closing.gif"
+                    src="/works/The_Playlist/17_Closing.gif"
                     alt="Project Animation"
                     width={500}
                     height={500}
