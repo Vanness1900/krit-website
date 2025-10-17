@@ -160,7 +160,7 @@ export default function ProjectPage() {
                     <div className="flex flex-col gap-6">
                         {/* Description Paragraphs */}
                         <p className="font-blender text-xl lg:text-2xl text-krit-black">
-                            If you'd like to taste The Playlist's entry songs, go to Spotify and search for Andante, Ellington Mood, and High Voltage under the account "56". If you are having trouble finding them, relax, we got that covered for you. Scan these barcode below for the respective album. Don't forget to put your headphone on, enjoy!
+                            If you&apos;d like to taste The Playlist&apos;s entry songs, go to Spotify and search for Andante, Ellington Mood, and High Voltage under the account &quot;56&quot;. If you are having trouble finding them, relax, we got that covered for you. Scan these barcode below for the respective album. Don&apos;t forget to put your headphone on, enjoy!
                         </p>
                     </div>
                 </div>
